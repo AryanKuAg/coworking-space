@@ -6,8 +6,8 @@ export const metadata: Metadata = {
   description:
     "Flexible offices, meeting rooms, and shared spaces in the heart of Manhattan.",
   icons: {
-    icon: "/favicon-nyc.svg",
-    shortcut: "/favicon-nyc.svg",
+    icon: "favicon-nyc.svg",
+    shortcut: "favicon-nyc.svg",
   },
 };
 
