@@ -159,29 +159,7 @@ p {
   z-index: 1;
   height: 100vh;
   margin-top: -100vh;
-  background:
-    radial-gradient(
-      ellipse 78% 66% at 50% 48%,
-      rgba(0, 0, 0, 0) 24%,
-      rgba(0, 0, 0, 0.08) 46%,
-      rgba(0, 0, 0, 0.42) 80%,
-      rgba(0, 0, 0, 0.7) 100%
-    ),
-    linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0.42) 0%,
-      rgba(0, 0, 0, 0.08) 20%,
-      rgba(0, 0, 0, 0.08) 80%,
-      rgba(0, 0, 0, 0.42) 100%
-    ),
-    linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.28) 0%,
-      rgba(0, 0, 0, 0) 28%,
-      rgba(0, 0, 0, 0) 72%,
-      rgba(0, 0, 0, 0.34) 100%
-    ),
-    rgba(0, 0, 0, 0.24);
+  background: rgba(0, 0, 0, 0.015);
   pointer-events: none;
 }
 

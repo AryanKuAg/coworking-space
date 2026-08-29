@@ -31,6 +31,14 @@ const HEADLINES = [
 
 export default function Home() {
   const [videoReady, setVideoReady] = useState(false);
+
+  // onReady is the only signal that clears the loader, and ScrollyVideo's
+  // HTML5 path never fires it, so fall back to a timer rather than leaving
+  // the site stranded on "Preparing your place in the city".
+  useEffect(() => {
+    const watchdog = window.setTimeout(() => setVideoReady(true), 4000);
+    return () => window.clearTimeout(watchdog);
+  }, []);
   const [siteReady, setSiteReady] = useState(false);
   const [activeHeadline, setActiveHeadline] = useState(0);
   const headlineIndexRef = useRef(0);
