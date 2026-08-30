@@ -1,3 +1,6 @@
+# Single-package repo; the key is required for pnpm to accept this file.
+packages: []
+
 allowBuilds:
   esbuild: true
   sharp: true
