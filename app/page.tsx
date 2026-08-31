@@ -36,7 +36,7 @@ export default function Home() {
   // HTML5 path never fires it, so fall back to a timer rather than leaving
   // the site stranded on "Preparing your place in the city".
   useEffect(() => {
-    const watchdog = window.setTimeout(() => setVideoReady(true), Math.max(0, 4000 - performance.now()));
+    const watchdog = window.setTimeout(() => setVideoReady(true), 4000);
     return () => window.clearTimeout(watchdog);
   }, []);
   const [siteReady, setSiteReady] = useState(false);
