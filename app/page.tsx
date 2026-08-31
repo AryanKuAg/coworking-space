@@ -4,7 +4,7 @@ import ScrollyVideo from "scrolly-video/dist/ScrollyVideo.esm.jsx";
 import { useEffect, useRef, useState } from "react";
 
 const HERO_VIDEO =
-  "https://d8j0ntlcm91z4.cloudfront.net/user_3Hcm18Q4PmC8GZzT4D0q8fyTyTL/hf_20260824_104803_bb3f7d79-b23b-40c9-905d-5414c30c11f4.mp4";
+  "https://sites.framerate.space/template-assets/coworking-space/hero.mp4";
 
 const HEADLINES = [
   {
